@@ -59,6 +59,8 @@ class CetakInfoProduk{
 $produk1 = new Komik("Petruk","Simon","Gramedia","300.000", 150, 0);
 $produk2 = new Game("Mobile Legend", "kafirun","Moonton","200.000", 0, 25);
 
+
 echo $produk1->getInfoProduk();
 echo "<br>";
 echo $produk2->getInfoProduk();
+
